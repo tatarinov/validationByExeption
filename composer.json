@@ -2,7 +2,6 @@
   "name": "tatarinov/validation-by-exception",
   "description": "Интерфейс для валидации через исключения",
   "version": "1.0.0",
-  "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
     {
