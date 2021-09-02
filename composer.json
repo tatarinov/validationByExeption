@@ -1,5 +1,5 @@
 {
-  "name": "Tatarinov/ValidationByException",
+  "name": "tatarinov/validation-by-exception",
   "description": "Интерфейс для валидации через исключения",
   "minimum-stability": "stable",
   "license": "MIT",
