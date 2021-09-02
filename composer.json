@@ -9,6 +9,9 @@
       "email": "alex-dev@yandex.ru"
     }
   ],
+  "require": {
+    "php": ">=7.1"
+  },
   "autoload": {
     "psr-4": {
       "Tatarinov\\ValidationByException\\": "src/"
