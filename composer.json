@@ -1,5 +1,5 @@
 {
-  "name": "tan/validationByExeption",
+  "name": "Tatarinov/ValidationByException",
   "description": "Интерфейс для валидации через исключения",
   "minimum-stability": "stable",
   "license": "MIT",
@@ -9,11 +9,9 @@
       "email": "alex-dev@yandex.ru"
     }
   ],
-  "require": {
-  },
   "autoload": {
     "psr-4": {
-      "tan\\ValidationByExeption\\": "src/"
+      "Tatarinov\\ValidationByException\\": "src/"
     }
   }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace tan\validationByException\interfaces;
+namespace Tatarinov\ValidationByException\Interfaces;
 
 interface ValidatorListInterface extends ValidatorInterface
 {

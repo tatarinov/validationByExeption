@@ -1,6 +1,6 @@
 <?php
 
-namespace tan\validationByException\exceptions;
+namespace Tatarinov\ValidationByException\Exceptions;
 
 use Exception;
 

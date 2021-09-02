@@ -1,9 +1,9 @@
 <?php
 
-namespace tan\validationByException;
+namespace Tatarinov\ValidationByException;
 
-use tan\validationByException\interfaces\ValidatorInterface;
-use tan\validationByException\interfaces\ValidatorListInterface;
+use Tatarinov\ValidationByException\Interfaces\ValidatorInterface;
+use Tatarinov\ValidationByException\Interfaces\ValidatorListInterface;
 
 class ValidatorList implements ValidatorListInterface
 {
