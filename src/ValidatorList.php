@@ -11,7 +11,10 @@ class ValidatorList implements ValidatorListInterface
 
   public function validate($data): void
   {
-    array_walk($this->list, "validate");
+    $args = func_get_args();
+    array_walk($this->list, function (ValidatorInterface $item) use($args) {
+      call_user_func_array([$item, 'validate'], $args);
+    });
   }
 
   public function add(ValidatorInterface $validator): void
